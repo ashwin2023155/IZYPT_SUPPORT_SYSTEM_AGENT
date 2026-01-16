@@ -2,7 +2,7 @@
 
 A comprehensive AI-powered customer support and sales agent for IZYPT, featuring multi-turn conversation capabilities, database integration, and voice support via Twilio.
 
-## 🚀 Key Features
+##  Key Features
 
 - **Google Gemini Integration**: Uses `gemini-2.5-flash` for high-quality, fast, and accurate responses.
 - **Database Integration**: Real-time lookup of orders, customer details, and status updates.
@@ -18,7 +18,7 @@ A comprehensive AI-powered customer support and sales agent for IZYPT, featuring
 - **Voice Integration**: Twilio Programmable Voice
 - **Language**: Python 3.9+
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 IZYPT/
@@ -59,7 +59,7 @@ Ensure you have your API keys set in `config.py` or environment variables:
 uvicorn api:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-## 📞 Voice Agent Setup
+##  Voice Agent Setup
 
 To enable the phone number **(484) 559-7215**:
 
@@ -73,7 +73,7 @@ To enable the phone number **(484) 559-7215**:
 - **Gemini Test**: `python test_gemini.py`
 - **API Docs**: Visit `http://localhost:8000/docs`
 
-## 📊 Database Schema
+##  Database Schema
 
 **Orders Table**:
 - `order_id`: Unique identifier (e.g., #ORD-123)
